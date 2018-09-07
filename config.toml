@@ -1,0 +1,144 @@
+baseurl = "https://www.yusufsaquib.com"
+languageCode = "en-us"
+title = "Yusuf Saquib"
+theme = "hugo-strata-theme"
+# disqusShortname = ""
+# Enable Google Analytics by inserting your tracking code
+googleAnalytics = ""
+# Define how many posts should appear on a site
+paginate = 10
+
+[params]
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Yusuf Saquib"
+	description = "A Computer Science Freshman"
+
+	# Format dates with Go's time formatting
+	date_format = "02-01-2006"
+
+	# Add read time estimates in the format "X min read"
+	show_read_time = false
+
+	# Add custom assets with their paths relative to the static folder
+	custom_js   = []
+	custom_css  = []
+
+
+	[params.sidebar]
+		# Replace the avatar with a picture of your own under static/images
+		avatar = "avatar.jpg"
+		# Use Markdown to format the string. This works nearly all over the theme
+		bio = "**I'm Yusuf**, a CS student<br> at Carnegie Mellon University."
+		# The icons will be shown if you enter your username
+		twitter = ""
+		github = ""
+		gitlab = ""
+		dribbble = ""
+		facebook = ""
+		googleplus = ""
+		flickr = ""
+		linkedin = ""
+
+		copyright = [
+			"&copy; Yusuf Saquib"
+		]
+
+
+	[params.about]
+		hide  = false
+		title = "Yusuf Saquib"
+		content = "I am a Pakistani from America living in Qatar. I attend Carnegie Mellon University, studying Computer Science, hence the website."
+
+	[params.recentposts]
+		hide  = false
+		title = "Posts"
+
+	[params.portfolio]
+		hide  = true
+		title = "Recent Work"
+
+		# The images and thumbnails are stored under static/images
+		# Create and change subfolders as you like
+		[[params.portfolio.gallery]]
+			image = "fulls/01.jpg"
+			thumb = "thumbs/01.jpg"
+			title = "Lorem ipsum dolor."
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/02.jpg"
+			thumb = "thumbs/02.jpg"
+			title = "Lorem ipsum dolor."
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/03.jpg"
+			thumb = "thumbs/03.jpg"
+			title = "Lorem ipsum dolor."
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/04.jpg"
+			thumb = "thumbs/04.jpg"
+			title = "Lorem ipsum dolor."
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/05.jpg"
+			thumb = "thumbs/05.jpg"
+			title = "Lorem ipsum dolor."
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/06.jpg"
+			thumb = "thumbs/06.jpg"
+			title = "Lorem ipsum dolor."
+			description = "Lorem ipsum dolor sit amet."
+
+	[params.contact]
+		hide  = false
+		title = "Contact Me"
+		content = ""
+
+		# This can be exact coordinates or a searchable address in google maps
+		gmaps_address = "25.256339, 51.497383"
+		address = [
+			"Doha",
+			"Qatar",
+			""
+		]
+		phone = "+974 5002 1382"
+
+		# Since this template is static, the contact form uses www.formspree.io as a
+		# proxy. The form makes a POST request to their servers to send the actual
+		# email. Visitors can send up to a 1000 emails each month for free.
+	    #
+	    # What you need to do for the setup?
+	    #
+	    # - set your email address under 'email' below
+	    # - upload the generated site to your server
+	    # - send a dummy email yourself to confirm your account
+	    # - click the confirm link in the email from www.formspree.io
+	    # - you're done. Happy mailing!
+		email = "yusufsaquib@gmail.com"
+
+		[params.contact.form]
+			# Set custom strings for the form if your native
+			# language isn't English
+			name = "Full Name"
+			email = "Email"
+			message = "Message"
+			submit = "Send!"
+
+
+# Menu links that appear on the left sidebar
+[[menu.main]]
+	name = "Home"
+	url  = "/"
+	weight = 10
+
+[[menu.main]]
+	name = "Posts"
+	url  = "post/"
+	weight = 0
