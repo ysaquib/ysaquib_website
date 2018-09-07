@@ -1,5 +1,6 @@
 baseurl = "https://www.yusufsaquib.com"
 languageCode = "en-us"
+publishDir = "docs"
 title = "Yusuf Saquib"
 theme = "hugo-strata-theme"
 # disqusShortname = ""

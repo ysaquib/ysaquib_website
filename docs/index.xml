@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yusuf Saquib</title>
+    <link>https://www.yusufsaquib.com/</link>
+    <description>Recent content on Yusuf Saquib</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Sep 2018 14:34:09 +0300</lastBuildDate>
+    
+	<atom:link href="https://www.yusufsaquib.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://www.yusufsaquib.com/post/welcome/</link>
+      <pubDate>Fri, 07 Sep 2018 14:34:09 +0300</pubDate>
+      
+      <guid>https://www.yusufsaquib.com/post/welcome/</guid>
+      <description>This is my website.</description>
+    </item>
+    
+  </channel>
+</rss>
