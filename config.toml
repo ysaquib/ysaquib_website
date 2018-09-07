@@ -1,4 +1,4 @@
-baseurl = "https://www.yusufsaquib.com"
+baseurl = "https://ysaquib.github.io/ysaquib_website/"
 languageCode = "en-us"
 publishDir = "docs"
 title = "Yusuf Saquib"
